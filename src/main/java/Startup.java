@@ -6,7 +6,7 @@ public class Startup {
 
     public static void main(String[] args) {
 
-        //todo stub
+        /*//todo stub
         try {
             TlvJsonParser parser = new TlvJsonParser("data-1.bin", "test.json");
             parser.parse();
@@ -14,10 +14,10 @@ public class Startup {
                 System.out.println(e.getMessage());
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
 
 
-        /*if(args.length == 2) {
+        if(args.length == 2) {
             try {
                 TlvJsonParser parser = new TlvJsonParser(args[0], args[1]);
                 parser.parse();
@@ -28,7 +28,7 @@ public class Startup {
             }
         } else {
             System.out.println("Arguments must contains 2 files names");
-        }*/
+        }
     }
 
 }
